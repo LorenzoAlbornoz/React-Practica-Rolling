@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    color: $color-background-color;
+  }
+  
+  .todoContainer {
+      width: 500px;
+      margin: 100px auto;
+    
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .todoCreateForm {
+      display: flex;
+      gap: 5px;
+    }
+    
+    .todoInput {
+      flex-grow: 1;
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: solid 1px #999;
+    }
+    
+    .buttonCreate {
+      border: none;
+      border-radius: 3px;
+      background-color: rgb(26, 76, 169);
+      color: $color-white;
+      padding: 10px 20px;
+    }
+    
+    .todosContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 10px;
+    }
+    
+    .todo {
+      padding: 10px;
+    }
+    
+    .todoTitle {
+      flex: 1;
+      font-size: 20px;
+    }
+    .todoUpdateForm,
+    .todoInfo {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .button {
+      border: none;
+      border-radius: 3px;
+      background-color: $color-button;
+      color: $color-white;
+      padding: 10px 20px;
+    }
+    
+    .buttonDelete {
+      border: none;
+      border-radius: 3px;
+      background-color: $color-button-delete;
+      color: $color-white;
+      padding: 10px 20px;
+    }
+
+    
+/* Estilo para el cuadro de color */
+.color-box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  gap: 5px;
+}
+
+/* Estilo para el contenedor de colores */
+.color-container {
+  margin-top: 10px;
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-columns {
+  display: flex; /* Usar flexbox para alinear elementos en una fila */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en una nueva línea cuando no haya espacio */
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+.buttonDeleteColores {
+  margin-top: 5px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonDeleteColores:hover {
+  background-color: #ff0000;
+}
