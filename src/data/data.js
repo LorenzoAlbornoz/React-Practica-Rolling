@@ -42,7 +42,7 @@ let empleados = [{
   },
   {
     id: 7,
-    fullName: "Ellen Balderas",
+    fullName: "Belén Balderas",
     title: "Digital Strategist",
     department: "Marketing",
     pic: "https://res.cloudinary.com/dcwpf7ghu/image/upload/v1695123645/Dise%C3%B1o_sin_t%C3%ADtulo_azo9nj.png"

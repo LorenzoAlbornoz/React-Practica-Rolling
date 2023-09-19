@@ -3,6 +3,7 @@ import TodasLasTareas from './components/TodasLasTareas'
 import PaletaDeColores from './components/PaletaDeColores'
 import EmpleadoList from './components/EmpleadoList'
 import empleados from './data/data'
+import TitleFormulario from './components/TitleFormulario'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
    <TodasLasTareas/>
    <PaletaDeColores/>
    <EmpleadoList empleados={empleados} />
+   <TitleFormulario/>
     </>
     
   )
