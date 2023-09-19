@@ -4,6 +4,7 @@ import PaletaDeColores from './components/PaletaDeColores'
 import EmpleadoList from './components/EmpleadoList'
 import empleados from './data/data'
 import TitleFormulario from './components/TitleFormulario'
+import CitasVet from './components/veterinaria/CitasVet'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
    <PaletaDeColores/>
    <EmpleadoList empleados={empleados} />
    <TitleFormulario/>
+   <CitasVet/>
     </>
     
   )
