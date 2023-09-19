@@ -113,3 +113,68 @@
 .buttonDeleteColores:hover {
   background-color: #ff0000;
 }
+
+/* EmpleadoAvatar.css */
+
+.empleado-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 350px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.empleado-img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.empleado-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right; /* Alinea el texto a la derecha */
+}
+
+.empleado-name {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.empleado-title {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.empleado-department {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center; /* Alinea el texto del departamento al centro */
+}
+
+.empleado-list-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.empleado-list-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.empleado-list-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
