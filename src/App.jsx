@@ -5,6 +5,7 @@ import EmpleadoList from './components/EmpleadoList'
 import empleados from './data/data'
 import TitleFormulario from './components/TitleFormulario'
 import CitasVet from './components/veterinaria/CitasVet'
+import ListaDePeliculas from './components/Peliculas/ListaDePeliculas'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
    <EmpleadoList empleados={empleados} />
    <TitleFormulario/>
    <CitasVet/>
+   <ListaDePeliculas/>
     </>
     
   )
